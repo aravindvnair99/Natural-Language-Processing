@@ -21,7 +21,7 @@ jobs:
       run: |
         pip install flake8
         flake8 --filename=*.py Python/ --count --show-source --statistics --ignore=E501 --exit-zero
-    - name: Test with pytest
-      run: |
-        pip install pytest
-        cd Python && pytest *.py
+#     - name: Test with pytest
+#       run: |
+#         pip install pytest
+#         cd Python && pytest *.py
