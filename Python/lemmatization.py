@@ -6,7 +6,7 @@ W = WordNetLemmatizer()
 
 
 def findpos(pos):
-	"""Find parts of speech"""
+    """Find parts of speech"""
     starts_with = 'n'
 
     if pos.startswith("V"):
