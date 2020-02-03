@@ -25,7 +25,7 @@ def findpos(POS):
 
         STARTS_WITH = "n"
 
-    return(STARTS_WITH)
+    return STARTS_WITH
 
 
 WORD_DATA = "It originated from the idea that there are readers who prefer learning new skills from the comforts of their drawing rooms"
