@@ -2,35 +2,35 @@ import nltk
 
 from nltk.stem import WordNetLemmatizer
 
-w = WordNetLemmatizer()
+W = WordNetLemmatizer()
 
 
-def findpos(x):
+def findpos(POS):
 
-    t = 'n'
+    STARTS_WITH = 'n'
 
-    if x.startswith("V"):
+    if POS.startswith("V"):
 
-        t = "v"
+        STARTS_WITH = "v"
 
-    elif x.startswith("J"):
+    elif POS.startswith("J"):
 
-        t = "a"
+        STARTS_WITH = "a"
 
-    elif x.startswith("R"):
+    elif POS.startswith("R"):
 
-        t = "r"
+        STARTS_WITH = "r"
 
-    elif x.startswith("N"):
+    elif POS.startswith("N"):
 
-        t = "n"
+        STARTS_WITH = "n"
 
-    return(t)
+    return(STARTS_WITH)
 
 
 WORD_DATA = "It originated from the idea that there are readers who prefer learning new skills from the comforts of their drawing rooms"
 
-# First Word tokenization
+# First do word tokenization
 
 TOKENS = nltk.word_tokenize(WORD_DATA)
 
@@ -44,6 +44,6 @@ for i in range(len(POS)):
 
     x = findpos(POS[i][1])
 
-    LEMMA.append(w.lemmatize(POS[i][0], x))
+    LEMMA.append(W.lemmatize(POS[i][0], x))
 
 print(LEMMA)
