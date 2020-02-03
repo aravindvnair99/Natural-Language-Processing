@@ -40,7 +40,7 @@ print("\nParts of speech are:\n\n", POS, "\n")
 
 LEMMA = []
 
-for i in range(len(POS)):
+for i in enumerate(POS):
 
     x = findpos(POS[i][1])
 
