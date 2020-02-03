@@ -5,27 +5,27 @@ from nltk.stem import WordNetLemmatizer
 W = WordNetLemmatizer()
 
 
-def findpos(POS):
+def findpos(pos):
+	"""Find parts of speech"""
+    starts_with = 'n'
 
-    STARTS_WITH = 'n'
+    if pos.startswith("V"):
 
-    if POS.startswith("V"):
+        starts_with = "v"
 
-        STARTS_WITH = "v"
+    elif pos.startswith("J"):
 
-    elif POS.startswith("J"):
+        starts_with = "a"
 
-        STARTS_WITH = "a"
+    elif pos.startswith("R"):
 
-    elif POS.startswith("R"):
+        starts_with = "r"
 
-        STARTS_WITH = "r"
+    elif pos.startswith("N"):
 
-    elif POS.startswith("N"):
+        starts_with = "n"
 
-        STARTS_WITH = "n"
-
-    return STARTS_WITH
+    return starts_with
 
 
 WORD_DATA = "It originated from the idea that there are readers who prefer learning new skills from the comforts of their drawing rooms"
