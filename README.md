@@ -19,10 +19,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 # :family: Team
 
--   **Abhishek Venkata Sai Kandikattu** - [Abhishek-Sai](https://github.com/Abhishek-Sai)
 -   **Aravind V. Nair** - [AravindVNair99](https://github.com/AravindVNair99)
--   **Sahithi Chigurupati** - [csahithi](https://github.com/csahithi)
--   **Jonnagadla Sunilkumar Dheeraj Kumar** - [JSdheerajkumar](https://github.com/JSdheerajkumar)
 
 See the full list of [contributors](https://github.com/aravindvnair99/Natural-Language-Processing/graphs/contributors) who participated in this project and statistics.
 
