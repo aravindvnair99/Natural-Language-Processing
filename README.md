@@ -1,4 +1,4 @@
-# Natural-Language-Processing
+# Natural-Language-Processing ![](https://komarev.com/ghpvc/?username=AravindVNair99&label=Views)
 
 Code snippets from Natural Language Processing Lab at Amrita School of Engineering, Bengaluru
 
